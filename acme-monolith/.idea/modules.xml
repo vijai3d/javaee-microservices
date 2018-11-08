@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/acme-monolith.iml" filepath="$PROJECT_DIR$/acme-monolith.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ear/acme-monolith-ear.iml" filepath="$PROJECT_DIR$/ear/acme-monolith-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/acme-monolith-models.iml" filepath="$PROJECT_DIR$/models/acme-monolith-models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheme/acme-monolith-scheme.iml" filepath="$PROJECT_DIR$/scheme/acme-monolith-scheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/acme-monolith-services.iml" filepath="$PROJECT_DIR$/services/acme-monolith-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap/acme-monolith-soap.iml" filepath="$PROJECT_DIR$/soap/acme-monolith-soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/acme-monolith-web.iml" filepath="$PROJECT_DIR$/web/acme-monolith-web.iml" />
+    </modules>
+  </component>
+</project>

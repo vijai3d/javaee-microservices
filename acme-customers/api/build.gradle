@@ -1,0 +1,27 @@
+plugins {
+    id 'war'
+}
+
+version 'unspecified'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':acme-customers-lib')
+    providedCompile 'fish.payara.extras:payara-micro:5.183'
+    compile group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.7.0'
+    compile group: 'com.auth0', name: 'java-jwt', version: '3.4.0'
+
+}
+
+task run(type: Exec, dependsOn: war) {
+    commandLine('java', '-jar', getMicroPath(), '--deploy', war.archivePath, '--port', 8099)
+}
+
+String getMicroPath() {
+    configurations.providedCompile.find { it.name =~ /payara-micro.*\.jar/ }.absolutePath
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="acme-monolith-ear" />
+        <module name="acme-monolith-models" />
+        <module name="acme-monolith-scheme" />
+        <module name="acme-monolith-services" />
+        <module name="acme-monolith-soap" />
+        <module name="acme-monolith-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acme-monolith" target="1.8" />
+      <module name="acme-monolith-ear" target="1.8" />
+      <module name="acme-monolith-models" target="1.8" />
+      <module name="acme-monolith-scheme" target="1.8" />
+      <module name="acme-monolith-services" target="1.8" />
+      <module name="acme-monolith-soap" target="1.8" />
+      <module name="acme-monolith-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

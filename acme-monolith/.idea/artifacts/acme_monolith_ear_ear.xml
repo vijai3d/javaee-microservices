@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="acme-monolith-ear:ear">
+    <output-path>$PROJECT_DIR$/ear/target</output-path>
+    <root id="archive" name="acme-monolith-ear-1.0.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="acme-monolith-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

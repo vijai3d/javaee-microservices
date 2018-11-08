@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="acme-monolith-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/ear/target/acme-monolith-ear-1.0.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="acme-monolith-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ear/target/acme-monolith-ear-1.0.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/ear/src/main/application" />
+      <element id="directory" name="lib">
+        <element id="archive" name="acme-monolith-scheme-1.0.0-SNAPSHOT.jar">
+          <element id="module-output" name="acme-monolith-scheme" />
+        </element>
+        <element id="archive" name="acme-monolith-models-1.0.0-SNAPSHOT.jar">
+          <element id="module-output" name="acme-monolith-models" />
+        </element>
+      </element>
+      <element id="archive" name="acme-monolith-services-1.0.0-SNAPSHOT.jar">
+        <element id="artifact" artifact-name="acme-monolith-services:ejb exploded" />
+      </element>
+      <element id="archive" name="acme-monolith-soap-1.0.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="acme-monolith-soap:war exploded" />
+      </element>
+      <element id="archive" name="acme-monolith-web-1.0.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="acme-monolith-web:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

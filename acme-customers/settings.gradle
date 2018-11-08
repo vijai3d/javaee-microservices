@@ -1,0 +1,6 @@
+rootProject.name = 'acme-customers'
+include 'lib'
+findProject(':lib')?.name = 'acme-customers-lib'
+include 'api'
+findProject(':api')?.name = 'acme-customers-api'
+
